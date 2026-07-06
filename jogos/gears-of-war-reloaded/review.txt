@@ -1,0 +1,19 @@
+﻿Game: Gears of War: Reloaded
+Score: 6.6/10
+Playtime: 5.4 hours
+Completed: June 21, 2026
+Tags: #GearsOfWar #ThirdPersonShooter #Xbox #BPDPlays #GamingReview
+
+--- Summary ---
+This is definitively the best version of the game, bringing clear improvements over the original while keeping an art direction that isn't as jarring as the first remaster.
+
+However, since it's just a remaster, it fails to fix dated level design and persistent legacy bugs. This is the third release of the game, yet long-standing issues remain: ambient occlusion that doesn't affect dynamic objects, shadows popping in and out near light sources, culling issues when moving the camera, clipping into geometry, glitched execution animations, and so on... These small details should have been ironed out for a two-decade-old title.
+
+That said, it's still worth playing, offering the best graphics and gameplay available — provided you disable the screen shake, which somehow managed to get worse here.
+
+--- Resumo ---
+Definitivamente a melhor versão do jogo, trazendo melhorias em relação à versão original e uma direção de arte que não é tão destoante quanto a do primeiro remaster.
+
+Porém, por ser um remaster, ele não corrige o level design que ficou datado, além de arrastar problemas de versões anteriores. Esta já é a terceira versão do jogo e os erros continuam lá: oclusão de ambiente que não afeta objetos dinâmicos, sombras que somem e aparecem ao se aproximar de fontes de luz, objetos que desaparecem ao mexer a câmera, personagem preso na geometria, animações de finalização bugadas, etc., etc.... São pequenos detalhes que já deveriam ter sido corrigidos em um terceiro lançamento de um jogo de duas décadas atrás.
+
+Fora isso, vale a pena ser jogado e oferece os melhores gráficos e jogabilidade — desde que você desative o tremor de câmera, que conseguiram piorar (felizmente, basta desligar).
