@@ -77,8 +77,6 @@ function applyFilters() {
   else if (sort === 'date-asc') filtered.sort((a, b) => new Date(a.date) - new Date(b.date));
   else if (sort === 'name') filtered.sort((a, b) => a.name.localeCompare(b.name));
   else if (sort === 'name-desc') filtered.sort((a, b) => b.name.localeCompare(a.name));
-  else if (sort === 'playtime-desc') filtered.sort((a, b) => parseFloat(b.playtime) - parseFloat(a.playtime));
-  else if (sort === 'playtime-asc') filtered.sort((a, b) => parseFloat(a.playtime) - parseFloat(b.playtime));
 
   renderCards(filtered);
 }

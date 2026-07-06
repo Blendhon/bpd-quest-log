@@ -892,7 +892,14 @@ body {
   transition: transform 0.15s ease;
 }
 
-.lightbox-img,
+.lightbox-img {
+  max-width: 75vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: 20px;
+  cursor: default;
+}
+
 .lightbox-video {
   max-width: 75vw;
   max-height: 85vh;
@@ -1226,7 +1233,22 @@ ${items}
         var item = items[idx];
         var isVideo = item.tagName === 'VIDEO';
         if (isVideo) {
-          content.innerHTML = '<video src="' + item.src + '" class="lightbox-video" autoplay muted loop playsinline></video>';
+          var v = document.createElement('video');
+          v.className = 'lightbox-video';
+          v.autoplay = true;
+          v.muted = true;
+          v.loop = true;
+          v.playsinline = true;
+          v.onloadedmetadata = function() {
+            var maxW = window.innerWidth * 0.75;
+            var maxH = window.innerHeight * 0.85;
+            var scale = Math.min(maxW / this.videoWidth, maxH / this.videoHeight);
+            this.width = Math.round(this.videoWidth * scale);
+            this.height = Math.round(this.videoHeight * scale);
+          };
+          v.src = item.src;
+          content.innerHTML = '';
+          content.appendChild(v);
         } else {
           content.innerHTML = '<img src="' + item.src + '" alt="' + item.alt + '" class="lightbox-img">';
         }

@@ -502,7 +502,14 @@ body {
   transition: transform 0.15s ease;
 }
 
-.lightbox-img,
+.lightbox-img {
+  max-width: 75vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: 20px;
+  cursor: default;
+}
+
 .lightbox-video {
   max-width: 75vw;
   max-height: 85vh;

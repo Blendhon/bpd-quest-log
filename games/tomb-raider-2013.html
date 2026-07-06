@@ -123,7 +123,8 @@ Nota técnica: Recomendo fortemente o uso do mod "Disable Camera Wobble" e o dow
           else { var p = document.querySelector('.game-nav-prev'); if (p && p.tagName === 'A') p.click(); }
         }
       }, { passive: true });
-    })();  </script>
+    })();
+  </script>
   <script>
     (function() {
       var items = document.querySelectorAll('.screenshot-grid > *');
@@ -147,7 +148,22 @@ Nota técnica: Recomendo fortemente o uso do mod "Disable Camera Wobble" e o dow
         var item = items[idx];
         var isVideo = item.tagName === 'VIDEO';
         if (isVideo) {
-          content.innerHTML = '<video src="' + item.src + '" class="lightbox-video" autoplay muted loop playsinline></video>';
+          var v = document.createElement('video');
+          v.className = 'lightbox-video';
+          v.autoplay = true;
+          v.muted = true;
+          v.loop = true;
+          v.playsinline = true;
+          v.onloadedmetadata = function() {
+            var maxW = window.innerWidth * 0.75;
+            var maxH = window.innerHeight * 0.85;
+            var scale = Math.min(maxW / this.videoWidth, maxH / this.videoHeight);
+            this.width = Math.round(this.videoWidth * scale);
+            this.height = Math.round(this.videoHeight * scale);
+          };
+          v.src = item.src;
+          content.innerHTML = '';
+          content.appendChild(v);
         } else {
           content.innerHTML = '<img src="' + item.src + '" alt="' + item.alt + '" class="lightbox-img">';
         }
