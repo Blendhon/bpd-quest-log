@@ -790,7 +790,6 @@ body {
     max-width: 320px;
     height: 100%;
     z-index: 200;
-    flex-direction: column;
     gap: 16px;
     padding: 60px 20px 20px;
     margin: 0;
@@ -799,12 +798,13 @@ body {
     transform: translateX(100%);
     transition: transform 0.3s ease;
     overflow-y: auto;
+    overflow-x: hidden;
     align-items: stretch;
   }
   .filters.open {
     transform: translateX(0);
   }
-  .filters label { width: 100%; }
+  .filters label { width: 100%; flex-shrink: 0; }
   .filters input, .filters select { min-width: 100%; width: 100%; }
   .filters input[type="range"] { min-width: 100%; }
   .filter-btn { padding: 6px 12px; font-size: 0.85rem; white-space: normal; word-break: break-word; }
@@ -1360,7 +1360,7 @@ const indexHTML = `<!DOCTYPE html>
           <option value="2026">2026</option>
         </select>
       </label>
-      <label>
+      <label style="flex:1;min-width:100%">
         Genre Quick Filter
         <div class="filter-buttons" id="genreButtons"></div>
       </label>
