@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resident Evil 2 (2019) — BPD | Quest Log</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="game-detail">
+      <a href="../index.html" class="back-link">&larr; Back to all games</a>
+
+      <div class="detail-header">
+        <div class="detail-score" style="color:#8bc34a">8.7 Great</div>
+        <h1>Resident Evil 2 (2019)</h1>
+        <div class="detail-stats">
+          <div class="detail-stat">
+            <span class="value">14.6 hours</span>
+            <span class="label">Playtime</span>
+          </div>
+          <div class="detail-stat">
+            <span class="value">Feb 19, 2026</span>
+            <span class="label">Completed</span>
+          </div>
+          <div class="detail-stat">
+            <span class="value" style="color:#8bc34a">Survival Horror</span>
+            <span class="label">Genre</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-section">
+        <h2>Summary</h2>
+        <p>I'm glad I also gave this game a second chance! The gameplay is fluid, the graphics are top-tier, and the atmosphere is excellent, despite some odd sound mixing with low dialogue volume.
+
+However, the "2nd Run" is where the game falters. The stories don't sync well, and the repetition of paths and enemies breaks the immersion. Seeing environments that were destroyed in the first campaign reappear intact just to be destroyed again feels a bit lazy.
+
+It's still an excellent game, but these inconsistencies prevent it from reaching true perfection. It leaves a "great taste", but falls just short of its full potential.</p>
+      </div>
+
+      <div class="review-section">
+        <h2>Resumo</h2>
+        <p>Fico feliz de também ter dado uma segunda chance a este jogo! A gameplay é fluida, os gráficos são de ponta e a atmosfera é excelente, apesar de uma mixagem de som estranha com diálogos baixos.
+
+Contudo, na "2ª Jornada", o jogo se perde um pouco. As histórias não se conectam perfeitamente e a repetição de caminhos e inimigos quebra a imersão. Ver cenários que foram destruídos na primeira campanha reaparecerem intactos para serem destruídos novamente soa como uma escolha preguiçosa.
+
+Ainda é um excelente jogo, mas esses problemas de consistência impedem que ele atinja a perfeição absoluta. O jogo entrega um "sabor excelente", mas não chega a ser perfeito de fato.</p>
+      </div>
+
+      <div class="review-section">
+        <h2>Screenshots</h2>
+        <div class="screenshot-grid">
+          <img src="../jogos/resident-evil-2-2019/Screenshots/RE2R%20(1).jpg" alt="Resident Evil 2 (2019) screenshot 1" loading="lazy">
+          <img src="../jogos/resident-evil-2-2019/Screenshots/RE2R%20(2).jpg" alt="Resident Evil 2 (2019) screenshot 2" loading="lazy">
+          <img src="../jogos/resident-evil-2-2019/Screenshots/RE2R%20(3).jpg" alt="Resident Evil 2 (2019) screenshot 3" loading="lazy">
+          <img src="../jogos/resident-evil-2-2019/Screenshots/RE2R%20(4).jpg" alt="Resident Evil 2 (2019) screenshot 4" loading="lazy">
+          <img src="../jogos/resident-evil-2-2019/Screenshots/RE2R%20(5).jpg" alt="Resident Evil 2 (2019) screenshot 5" loading="lazy">
+          <img src="../jogos/resident-evil-2-2019/Screenshots/RE2R%20(6).jpg" alt="Resident Evil 2 (2019) screenshot 6" loading="lazy">
+          <img src="../jogos/resident-evil-2-2019/Screenshots/RE2R%20(7).jpg" alt="Resident Evil 2 (2019) screenshot 7" loading="lazy">
+          <img src="../jogos/resident-evil-2-2019/Screenshots/RE2R%20(8).jpg" alt="Resident Evil 2 (2019) screenshot 8" loading="lazy">
+          <img src="../jogos/resident-evil-2-2019/Screenshots/RE2R%20(9).jpg" alt="Resident Evil 2 (2019) screenshot 9" loading="lazy">
+        </div>
+      </div>
+
+      <div class="lightbox-overlay" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <span class="lightbox-prev">&#10094;</span>
+        <span class="lightbox-next">&#10095;</span>
+        <div class="lightbox-content" id="lightboxContent"></div>
+        <div class="lightbox-counter" id="lightboxCounter"></div>
+      </div>
+
+      <div class="tags">
+        <span class="tag">#ResidentEvil2</span><span class="tag">#RE2Remake</span><span class="tag">#BPDPlays</span><span class="tag">#SurvivalHorror</span><span class="tag">#Gaming</span>
+      </div>
+
+      <div class="game-nav">
+        <a href="god-of-war-iii.html" class="game-nav-link game-nav-prev">&larr; god of war iii</a>
+        <a href="control-ultimate-edition.html" class="game-nav-link game-nav-next">control ultimate edition &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('keydown', function(e) {
+      if (document.getElementById('lightbox') && document.getElementById('lightbox').classList.contains('active')) return;
+      if (e.key === 'ArrowLeft') {
+        var prev = document.querySelector('.game-nav-prev');
+        if (prev && prev.tagName === 'A') prev.click();
+      }
+      if (e.key === 'ArrowRight') {
+        var next = document.querySelector('.game-nav-next');
+        if (next && next.tagName === 'A') next.click();
+      }
+    });
+    (function() {
+      var tsX = 0, tsY = 0;
+      document.addEventListener('touchstart', function(e) {
+        if (e.touches.length === 1) { tsX = e.touches[0].clientX; tsY = e.touches[0].clientY; }
+      }, { passive: true });
+      document.addEventListener('touchend', function(e) {
+        if (document.getElementById('lightbox') && document.getElementById('lightbox').classList.contains('active')) return;
+        var dx = e.changedTouches[0].clientX - tsX;
+        var dy = e.changedTouches[0].clientY - tsY;
+        if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+          if (dx < 0) { var n = document.querySelector('.game-nav-next'); if (n && n.tagName === 'A') n.click(); }
+          else { var p = document.querySelector('.game-nav-prev'); if (p && p.tagName === 'A') p.click(); }
+        }
+      }, { passive: true });
+    })();  </script>
+  <script>
+    (function() {
+      var items = document.querySelectorAll('.screenshot-grid > *');
+      var lightbox = document.getElementById('lightbox');
+      var content = document.getElementById('lightboxContent');
+      var counter = document.getElementById('lightboxCounter');
+      var idx = 0;
+      var zoom = 1;
+      if (!lightbox || items.length === 0) return;
+      items.forEach(function(item, i) {
+        item.addEventListener('click', function() { idx = i; open(); });
+      });
+      function open() { zoom = 1; content.style.transform = 'scale(1)'; lightbox.classList.add('active'); update(); }
+      function close() { lightbox.classList.remove('active'); stopVideo(); }
+      function stopVideo() {
+        var vid = content.querySelector('video');
+        if (vid) { vid.pause(); vid.src = ''; content.innerHTML = ''; }
+      }
+      function update() {
+        stopVideo();
+        var item = items[idx];
+        var isVideo = item.tagName === 'VIDEO';
+        if (isVideo) {
+          content.innerHTML = '<video src="' + item.src + '" class="lightbox-video" autoplay muted loop playsinline></video>';
+        } else {
+          content.innerHTML = '<img src="' + item.src + '" alt="' + item.alt + '" class="lightbox-img">';
+        }
+        counter.textContent = (idx + 1) + ' / ' + items.length;
+      }
+      function prev() { idx = (idx - 1 + items.length) % items.length; update(); zoom = 1; content.style.transform = 'scale(1)'; }
+      function next() { idx = (idx + 1) % items.length; update(); zoom = 1; content.style.transform = 'scale(1)'; }
+      document.querySelector('.lightbox-close').addEventListener('click', function() { close(); });
+      document.querySelector('.lightbox-prev').addEventListener('click', function(e) { e.stopPropagation(); prev(); });
+      document.querySelector('.lightbox-next').addEventListener('click', function(e) { e.stopPropagation(); next(); });
+      lightbox.addEventListener('click', function(e) { if (e.target === lightbox) close(); });
+      content.addEventListener('wheel', function(e) {
+        e.preventDefault();
+        if (e.deltaY < 0) {
+          zoom = Math.min(zoom + 0.2, 5);
+        } else {
+          zoom = Math.max(zoom - 0.2, 0.5);
+        }
+        content.style.transform = 'scale(' + zoom + ')';
+      }, { passive: false });
+      document.addEventListener('keydown', function(e) {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'Escape') close();
+        if (e.key === 'ArrowLeft') prev();
+        if (e.key === 'ArrowRight') next();
+      });
+      var lx = 0, ly = 0;
+      lightbox.addEventListener('touchstart', function(e) {
+        lx = e.touches[0].clientX; ly = e.touches[0].clientY;
+      }, { passive: true });
+      lightbox.addEventListener('touchend', function(e) {
+        var dx = e.changedTouches[0].clientX - lx;
+        var dy = e.changedTouches[0].clientY - ly;
+        if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+          if (dx < 0) next(); else prev();
+        }
+      }, { passive: true });
+    })();
+  </script>
+</body>
+</html>
