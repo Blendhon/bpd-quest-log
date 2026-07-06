@@ -1,0 +1,23 @@
+﻿Game: Tomb Raider (2013)
+Score: 8.6/10
+Playtime: 10.9 hours (100% Completion)
+Completed: Mar 14, 2026
+Tags: #TombRaider #BPDPlays #LaraCroft #Yamatai
+
+--- Summary ---
+Tomb Raider is another 7th-generation title that, despite being simple by today's standards, remains graphically impressive. The reboot took a more cinematic approach—which caused controversy among fans—but successfully revitalized the franchise.
+
+It has its downsides, such as the excessive "shaky cam" for cinematic effect and a ludonarrative dissonance that, while not a dealbreaker, is quite funny.
+
+Overall, the experience is very positive: a great soundtrack, decent story, excellent pacing, and a highly satisfying 100% completion (even if the tombs are a bit too simple). It remains a great starting point for new players!
+
+Technical Note: I strongly recommend using the "Disable Camera Wobble" mod and downgrading to version 743.0. The mod reduces the shake enough to prevent headaches (though it persists in cutscenes), and the older build is necessary because the latest update bugged the HUD, making UI elements unreadable.
+
+--- Resumo ---
+Tomb Raider é mais um título da 7ª geração que, apesar de ser simples para os padrões atuais, continua impressionante graficamente. Este reboot seguiu por um caminho mais cinematográfico, o que gerou controvérsias entre os fãs, mas também revitalizou a franquia.
+
+Tem seus lados negativos, como o tremor excessivo da câmera para criar um "efeito cinematográfico" e uma dissonância ludonarrativa que, embora não atrapalhe, chega a ser engraçada.
+
+No geral, a experiência é muito positiva: ótima trilha sonora, história decente, excelente ritmo de jogo e uma conclusão de 100% extremamente satisfatória (mesmo que as tumbas sejam um pouco fáceis demais). Continua sendo um ótimo ponto de partida para novos jogadores!
+
+Nota técnica: Recomendo fortemente o uso do mod "Disable Camera Wobble" e o downgrade para a versão 743.0. O mod reduz o tremor o suficiente para evitar dores de cabeça (infelizmente nas cutscenes a trepidação continua), e a versão antiga é necessária porque a última atualização causou um bug no HUD, tornando impossível ler alguns elementos da interface.
