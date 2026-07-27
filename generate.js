@@ -331,6 +331,17 @@ const games = [
     summary: `This is definitively the best version of the game, bringing clear improvements over the original while keeping an art direction that isn't as jarring as the first remaster.\n\nHowever, since it's just a remaster, it fails to fix dated level design and persistent legacy bugs. This is the third release of the game, yet long-standing issues remain: ambient occlusion that doesn't affect dynamic objects, shadows popping in and out near light sources, culling issues when moving the camera, clipping into geometry, glitched execution animations, and so on... These small details should have been ironed out for a two-decade-old title.\n\nThat said, it's still worth playing, offering the best graphics and gameplay available — provided you disable the screen shake, which somehow managed to get worse here.`,
     resumo: `Definitivamente a melhor versão do jogo, trazendo melhorias em relação à versão original e uma direção de arte que não é tão destoante quanto a do primeiro remaster.\n\nPorém, por ser um remaster, ele não corrige o level design que ficou datado, além de arrastar problemas de versões anteriores. Esta já é a terceira versão do jogo e os erros continuam lá: oclusão de ambiente que não afeta objetos dinâmicos, sombras que somem e aparecem ao se aproximar de fontes de luz, objetos que desaparecem ao mexer a câmera, personagem preso na geometria, animações de finalização bugadas, etc., etc.... São pequenos detalhes que já deveriam ter sido corrigidos em um terceiro lançamento de um jogo de duas décadas atrás.\n\nFora isso, vale a pena ser jogado e oferece os melhores gráficos e jogabilidade — desde que você desative o tremor de câmera, que conseguiram piorar (felizmente, basta desligar).`,
     tags: ["GearsOfWar", "ThirdPersonShooter", "Xbox", "BPDPlays", "GamingReview"]
+  },
+  {
+    name: "Shadow of the Tomb Raider: Definitive Edition",
+    slug: "shadow-of-the-tomb-raider-definitive-edition",
+    score: 5.0,
+    playtime: "27.9 hours",
+    date: "July 26, 2026",
+    genre: "Action-Adventure",
+    summary: `Shadow of the Tomb Raider is proof that beautiful graphics can elevate a good game, but they can't turn a bad game into a good one.\n\nIt had the potential to be the best entry in the Survival Trilogy, but it stumbled on its new features and ruined what already worked — a classic case of "less is more". The game was so bloated it lost its way; it's far longer than it should be, the side quests are mediocre, and the atrocious NPC voice acting only makes it worse. Not only do the NPCs look identical, but their voices are reused and poorly synced — ranging from male NPCs with female voices to children's voices on elderly characters, and even bugs where invisible NPCs speak from the void.\n\nSpeaking of bugs, the most infuriating issue was the collectible tracking glitch that broke overall completion progress. After nearly 30 hours, losing a save to a bug present since 2018 (which reportedly stems from the DLCs included in the Definitive Edition) is unacceptable.\n\nIn direct comparison, Rise might have a generic story, but it's a vastly superior game. It's sad to witness such a massive downgrade in what should have been a promising finale.`,
+    resumo: `Shadow of the Tomb Raider é a prova de que gráficos bonitos podem fazer um jogo bom ser ainda melhor, mas não podem transformar um jogo ruim em um jogo bom.\n\nEste tinha potencial para ser o melhor da Trilogia Survival, mas errou nas novidades e piorou o que já funcionava — aquela velha história do "menos é mais". Inflaram tanto o jogo que ele se perdeu: é muito mais longo do que deveria, as missões secundárias são medíocres e a péssima dublagem dos NPCs deixa tudo ainda pior. Além da repetição de modelos, as vozes não têm sincronia, gerando situações como NPCs masculinos com voz feminina, idosas com voz de criança e conversas com vozes do além.\n\nE o que mais estragou o jogo foi um bug onde a contagem de coletáveis simplesmente trava e ignora o progresso. Quase 30 horas de jogo para perder o save por um bug presente desde 2018 e que nunca foi corrigido (e que só ocorre por conta das DLCs inclusas na Definitive Edition).\n\nEm comparação direta, Rise pode ter uma história mais simples e genérica, mas é um jogo absurdamente melhor. É triste ver o downgrade de uma sequência tão promissora...`,
+    tags: ["ShadowOfTheTombRaider", "TombRaider", "SurvivalTrilogy", "BPDPlays", "GamingReview"]
   }
 ];
 
@@ -656,6 +667,7 @@ body {
   line-height: 1.7;
   color: #ccc;
   white-space: pre-wrap;
+  text-align: justify;
 }
 
 .tags {

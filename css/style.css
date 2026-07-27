@@ -266,6 +266,7 @@ body {
   line-height: 1.7;
   color: #ccc;
   white-space: pre-wrap;
+  text-align: justify;
 }
 
 .tags {
