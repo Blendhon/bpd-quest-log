@@ -1,4 +1,5 @@
 const games = [
+  {"name":"Halo: Campaign Evolved","slug":"halo-campaign-evolved","score":7.4,"playtime":"7.5 hours","date":"July 28, 2026","genre":"FPS","tags":["Halo","HaloCampaignEvolved","MasterChief","BPDPlays","GamingReview"]},
   {"name":"Shadow of the Tomb Raider: Definitive Edition","slug":"shadow-of-the-tomb-raider-definitive-edition","score":5,"playtime":"27.9 hours","date":"July 26, 2026","genre":"Action-Adventure","tags":["ShadowOfTheTombRaider","TombRaider","SurvivalTrilogy","BPDPlays","GamingReview"]},
   {"name":"Gears of War: Reloaded","slug":"gears-of-war-reloaded","score":6.6,"playtime":"5.4 hours","date":"June 21, 2026","genre":"Third-Person Shooter","tags":["GearsOfWar","ThirdPersonShooter","Xbox","BPDPlays","GamingReview"]},
   {"name":"Resident Evil Code: Veronica X","slug":"resident-evil-code-veronica-x","score":7.6,"playtime":"15.3 hours","date":"June 20, 2026","genre":"Survival Horror","tags":["ResidentEvilCodeVeronicaX","CodeVeronica","SurvivalHorror","Capcom","BPDPlays"]},
